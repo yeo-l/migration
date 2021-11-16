@@ -4,7 +4,7 @@ from sqlalchemy.orm import sessionmaker
 import os
 
 DB_TYPE = os.getenv('DATABASE_TYPE', 'mysql+pymysql')
-DB_NAME = os.getenv('DATABASE_NAME', 'ocv_db')
+DB_NAME = os.getenv('DATABASE_NAME', 'ovc_db')
 DB_USER = os.getenv('DATABASE_USER', 'root')
 DB_PASS = os.getenv('DATABASE_PASS', '9xBgBLCdGsENs9yJLzq5bB48dp0D5kv65')
 DB_HOST = os.getenv('DATABASE_HOST', 'localhost')
