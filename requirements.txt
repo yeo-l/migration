@@ -1,0 +1,10 @@
+fastapi==0.70.0
+pydantic==1.8.2
+PyMySQL==1.0.2
+SQLAlchemy==1.4.27
+uvicorn==0.15.0
+passlib~=1.7.4
+bcrypt
+jose
+cryptography
+python-multipart
